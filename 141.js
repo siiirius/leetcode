@@ -20,8 +20,8 @@ var hasCycle = function(head) {
         slow = slow.next
 
         if (slow == fast) {
-            return true;
+            return true
         }
     }
-    return false;
+    return false
 };
